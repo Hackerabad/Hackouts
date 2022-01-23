@@ -1,6 +1,27 @@
 body {
+  /* */
+  background-image: url(https://cdn.pixabay.com/photo/2015/01/07/16/37/wood-591631_960_720.jpg);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   text-align: center;
+  color: red;
 }
+h1 {
+  color: brown;
+}
+h1 {
+  color: black !important;
+}
+
 img {
-  width: 800px;
+  width: 30vw;
+}
+p {
+  font-size: xx-large;
+  font-weight: bolder;
+}
+a {
+  font-size: large;
+  color: red;
+  text-decoration: underline;
 }
