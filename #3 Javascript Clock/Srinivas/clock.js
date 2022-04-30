@@ -1,7 +1,7 @@
 const hour = document.querySelector(".hour-number");
 const minute = document.querySelector(".minute-number");
 const second = document.querySelector(".second-number");
-
+displaytime();
 function displaytime() {
   const time = new Date();
   let hours = time.getHours();
@@ -22,4 +22,4 @@ function displaytime() {
   requestAnimationFrame(displaytime);
 }
 
-displaytime();
+
